@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 /**
  * Example store structure
@@ -7,24 +7,55 @@ const store = {
   // 5 or more questions are required
   questions: [
     {
-      question: 'What color is broccoli?',
+      question: 'What are all of Gandalf\'s names?',
       answers: [
-        'red',
-        'orange',
-        'pink',
-        'green'
+        'Mithrandir',
+        'tharkûn',
+        'Olórin',
+        'Incánus',
+        'All of the above'
       ],
-      correctAnswer: 'green'
+      correctAnswer: 'All of the above'
     },
     {
-      question: 'What is the current year?',
+      question: 'What is Isildurs Bane?',
       answers: [
-        '1970',
-        '2015',
-        '2019',
-        '2005'
+        'The One Ring',
+        'Casting things in fire',
+        'Sauron',
+        'An arrow'
       ],
-      correctAnswer: '2019'
+      correctAnswer: 'The One Ring'
+    },
+    {
+      question: 'How old was Aragorn at the forming of the fellowship?',
+      answers: [
+        '38',
+        '78',
+        '87',
+        '46'
+      ],
+      correctAnswer: '87'
+    },
+    {
+      question: 'How many Rings of Power were forged?',
+      answers: [
+        '9',
+        '19',
+        '7',
+        '20'
+      ],
+      correctAnswer: '20'
+    },
+    {
+      question: 'Which actor broke their toe mid-scene and did not break character?',
+      answers: [
+        'Sean Astin',
+        'Viggo Mortensen',
+        'Dominic Monaghan',
+        'Karl Urban'
+      ],
+      correctAnswer: 'Viggo Mortensen'
     }
   ],
   quizStarted: false,
