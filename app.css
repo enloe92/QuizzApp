@@ -7,7 +7,12 @@
   *
 */
 
-
+@font-face {
+  font-family: 'Morris Roman';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Morris Roman'), url('https://fonts.cdnfonts.com/s/8274/MorrisRomanBlack.woff') format('woff');
+}
 
 body{
   background-color: #1c2833;
