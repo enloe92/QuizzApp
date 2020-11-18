@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable quotes */
 /* eslint-disable no-undef */
 'use strict';
@@ -210,7 +211,6 @@ function handleSubmitButton(){
     if(store.currentAnswer===store.questions[store.questionNumber].correctAnswer){
       store.score++;
     }
-    console.log(store.currentAnswer);
     render();
   });
 }
