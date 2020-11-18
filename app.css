@@ -7,12 +7,75 @@
   *
 */
 
+body{
+  background-color: #1c2833;
+  font-family: 'morris roman';
+}
+
 h1{
+  font-size: 80px;
+  color: #8b651e;
   text-align: center;
 }
 
+h2{
+  color: #ecab33;
+  font-size: 35px;
+}
+
+*{
+  font-size:20px;
+  color: #4d370f;
+}
+
+img{
+  width: 100%;
+}
+
+button{
+  margin-top: 10px;
+  border: 2px solid;
+  background-image: url(images/buttonbackground.jpg);  
+}
+
+
+
+.quiz-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.quiz-info p{
+  padding-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 .mainPage{
+  background-color: grey;
   margin: 40px;
-  border:1px solid green;
-  padding: 20px;
+  border:1px solid #000000;
+  padding: 20px 20px 20px 20px;
+}
+  
+
+@media all and (min-width: 800px){
+  body{
+    margin: auto;
+    width: 90%;
+  }
+  img{
+    width: 600px;
+  }
+}
+
+@media all and (min-width: 1050px){
+  body{
+    margin: auto;
+    width: 70%;
+  }
+  img{
+    width: 600px;
+  }
 }
